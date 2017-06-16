@@ -6,9 +6,15 @@
   "author": "Pavan Prakash",
   "license": "MIT",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "lint": "eslint **/*.js"
   },
   "devDependencies": {
-    "electron": "^1.6.11"
-  }
+    "electron": "^1.6.11",
+    "eslint": "^4.0.0",
+    "eslint-config-prettier": "^2.1.1",
+    "eslint-plugin-prettier": "^2.1.2",
+    "prettier": "^1.4.4"
+  },
+  "dependencies": {}
 }
