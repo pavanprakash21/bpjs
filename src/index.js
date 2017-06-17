@@ -8,16 +8,11 @@ import Other from "./pages/other";
 // render on page
 ReactDOM.render(
   <Router>
-    <div>
-      <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/other">Other</Link></li>
-      </ul>
-
-      <hr />
+    <div className="container is-fluid">
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/other" component={Other} />
+        <Route component={Home} />
       </Switch>
     </div>
   </Router>,

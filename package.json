@@ -22,7 +22,9 @@
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "bulma": "^0.4.2",
     "cheerio": "^1.0.0-rc.1",
+    "font-awesome": "^4.7.0",
     "pouchdb-browser": "^6.2.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
