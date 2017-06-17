@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 
 import Home from "./pages/home";
 import Other from "./pages/other";
@@ -15,9 +15,10 @@ ReactDOM.render(
       </ul>
 
       <hr />
-
-      <Route exact path="/" component={ Home } />
-      <Route path="/other" component={ Other } />
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route path="/other" component={Other} />
+      </Switch>
     </div>
   </Router>,
   document.getElementById("app")

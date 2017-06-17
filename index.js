@@ -1,9 +1,8 @@
 // npm packages
-const path = require("path");
 const url = require("url");
+const path = require("path");
 const electron = require("electron");
-// our packages
-const startServer = require("./serve");
+
 // Module to control application life.
 const app = electron.app;
 // Module to create native browser window.
@@ -14,8 +13,6 @@ const BrowserWindow = electron.BrowserWindow;
 let mainWindow;
 
 function createWindow() {
-  // start webpack
-  startServer();
   // Create the browser window.
   mainWindow = new BrowserWindow({
     width: 800,
@@ -23,7 +20,13 @@ function createWindow() {
   });
 
   // and load the index.html of the app.
-  mainWindow.loadURL("http://localhost:3000");
+  mainWindow.loadURL(
+    url.format({
+      pathname: path.join(__dirname, "index.html"),
+      protocol: "file:",
+      slashes: true
+    })
+  );
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
