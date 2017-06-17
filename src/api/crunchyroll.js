@@ -1,12 +1,27 @@
 // npm packages
 import axios from "axios";
 import cheerio from "cheerio";
+import electron from "electron";
+import path from "path";
+import fs from "fs";
+import { spawn } from "child_process";
 
 // our packages
 import db from "../db";
 
 // base URL used for most requests
 const baseURL = "http://www.crunchyroll.com";
+
+// setup folder for videos
+const userDataPath = (electron.app || electron.remote.app).getPath("userData");
+const targetFolder = path.join(userDataPath, "crunchyroll");
+
+try {
+  fs.accessSync(targetFolder);
+} catch (e) {
+  fs.mkdirSync(targetFolder);
+}
+console.log("Using target folder: ", targetFolder);
 
 // main module
 export const Crunchyroll = {
@@ -84,7 +99,17 @@ export const Crunchyroll = {
     return episodes;
   },
 
-  getEpisode(episode) {},
+  getEpisode(episode) {
+    console.log("loading episode: ", episode);
+    const dl = spawn("youtube-dl", [episode.url], { cwd: targetFolder });
+    dl.stdout.on("data", data => {
+      console.log("youtube-dl data: ", data.toString());
+    });
+
+    dl.stderr.on("data", data => {
+      console.log("youtube-dl std error: ", data.toString());
+    });
+  },
   getMySeries() {},
   search(query) {}
 };
