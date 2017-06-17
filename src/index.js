@@ -1,20 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import {HashRouter, Route, Switch} from 'react-router-dom';
 
 import Home from "./pages/home";
-import Other from "./pages/other";
+import Series from "./pages/series";
 
 // render on page
 ReactDOM.render(
-  <Router>
+  <HashRouter>
     <div className="container is-fluid">
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/other" component={Other} />
+        <Route path="/series/:id" component={Series} />
         <Route component={Home} />
       </Switch>
     </div>
-  </Router>,
+  </HashRouter>,
   document.getElementById("app")
 );
