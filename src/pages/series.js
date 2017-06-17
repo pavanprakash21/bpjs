@@ -35,7 +35,6 @@ export default class Series extends React.Component {
       .scan((acc, doc) => acc.concat([doc]), [])
       .debounceTime(1000)
       .subscribe(episodes => {
-        console.log(episodes);
         this.setState({ episodes });
       });
   }
