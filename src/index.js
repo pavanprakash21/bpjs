@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {HashRouter, Route, Switch} from 'react-router-dom';
+import { HashRouter, Route, Switch } from "react-router-dom";
 
 import Home from "./pages/home";
 import Series from "./pages/series";
@@ -13,6 +13,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/series/:id" component={Series} />
+        <Route path="/episode/:id" component={Episode} />
         <Route component={Home} />
       </Switch>
     </div>
