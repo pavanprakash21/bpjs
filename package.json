@@ -29,6 +29,7 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-router-dom": "^4.1.1",
-    "rxjs": "^5.4.1"
+    "rxjs": "^5.4.1",
+    "video.js": "^6.1.0"
   }
 }
