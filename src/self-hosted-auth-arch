@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-19T21:05:01.629Z" agent="5.0 (X11)" etag="U-jESSUwW-XQ2-Ao_aSt" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-19T21:07:02.372Z" agent="5.0 (X11)" etag="5tzRMrCmfx4pp9eU_heb" version="20.5.1" type="github">
   <diagram id="fxBEOxIyJJY9PtEezl1a" name="Page-1">
     <mxGraphModel dx="2062" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -38,7 +38,7 @@
           <mxGeometry x="765" y="750" width="60" height="100" as="geometry" />
         </mxCell>
         <mxCell id="SmX3n_LuJIYCsWd7I5lI-6" value="MeiliSearch (Search + Tagging)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="900" y="700" width="80" height="80" as="geometry" />
+          <mxGeometry x="900" y="690" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SmX3n_LuJIYCsWd7I5lI-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="SmX3n_LuJIYCsWd7I5lI-11" target="SmX3n_LuJIYCsWd7I5lI-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
