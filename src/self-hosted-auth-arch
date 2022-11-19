@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-19T20:29:26.572Z" agent="5.0 (X11)" etag="S0xZovtQA-WOPzww3L1W" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-19T20:30:28.434Z" agent="5.0 (X11)" etag="ROAw7BY9SvyeMdmN8BR4" version="20.5.1" type="github">
   <diagram id="fxBEOxIyJJY9PtEezl1a" name="Page-1">
     <mxGraphModel dx="2062" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -35,10 +35,10 @@
           <mxGeometry x="665" y="870" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SmX3n_LuJIYCsWd7I5lI-4" value="mongo" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="745" y="920" width="60" height="80" as="geometry" />
+          <mxGeometry x="745" y="920" width="60" height="100" as="geometry" />
         </mxCell>
         <mxCell id="SmX3n_LuJIYCsWd7I5lI-5" value="postgres" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="765" y="730" width="60" height="80" as="geometry" />
+          <mxGeometry x="765" y="730" width="60" height="100" as="geometry" />
         </mxCell>
         <mxCell id="SmX3n_LuJIYCsWd7I5lI-6" value="MeiliSearch (Search + Tagging)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="900" y="700" width="80" height="80" as="geometry" />
@@ -165,8 +165,9 @@
         <mxCell id="djDHAf3ktxOK_k7nacVs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="djDHAf3ktxOK_k7nacVs-1" target="SmX3n_LuJIYCsWd7I5lI-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="850" y="620" />
-              <mxPoint x="850" y="740" />
+              <mxPoint x="820" y="680" />
+              <mxPoint x="860" y="680" />
+              <mxPoint x="860" y="740" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -204,7 +205,7 @@
           <mxGeometry x="1290" y="520" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="djDHAf3ktxOK_k7nacVs-7" value="&lt;div&gt;postgres&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="860" y="610" width="60" height="60" as="geometry" />
+          <mxGeometry x="860" y="600" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="djDHAf3ktxOK_k7nacVs-9" value="ELT Service Bus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="730" y="1050" width="120" height="60" as="geometry" />
