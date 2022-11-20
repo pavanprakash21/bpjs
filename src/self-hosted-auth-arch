@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T14:38:55.284Z" agent="5.0 (X11)" etag="X4yG8aRPsDZ-6--My2gh" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-20T14:40:39.422Z" agent="5.0 (X11)" etag="ddFyWXwiO3Q7VBrRjxT0" version="20.5.3" type="github">
   <diagram id="fxBEOxIyJJY9PtEezl1a" name="Page-1">
     <mxGraphModel dx="2062" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -229,6 +229,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="FGPq9WlT3WejhNuZjeZR-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="djDHAf3ktxOK_k7nacVs-1" target="FGPq9WlT3WejhNuZjeZR-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="680" />
+              <mxPoint x="1020" y="680" />
+              <mxPoint x="1020" y="1015" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="djDHAf3ktxOK_k7nacVs-1" value="Next JS App" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="780" y="540" width="80" height="80" as="geometry" />
         </mxCell>
@@ -274,6 +283,9 @@
         </mxCell>
         <mxCell id="FGPq9WlT3WejhNuZjeZR-13" value="postgres" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="525" y="965" width="60" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FGPq9WlT3WejhNuZjeZR-15" value="Export Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="985" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
