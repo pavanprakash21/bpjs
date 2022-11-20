@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-20T14:43:39.041Z" agent="5.0 (X11)" etag="9WNTjh7sx7wzI1kexftB" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-20T16:37:33.132Z" agent="5.0 (X11)" etag="yOdWOnuNlW1rtcMvv6m7" version="20.5.3" type="github">
   <diagram id="fxBEOxIyJJY9PtEezl1a" name="Page-1">
     <mxGraphModel dx="2062" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -87,7 +87,10 @@
         <mxCell id="SmX3n_LuJIYCsWd7I5lI-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="SmX3n_LuJIYCsWd7I5lI-25" target="SmX3n_LuJIYCsWd7I5lI-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SmX3n_LuJIYCsWd7I5lI-25" value="&lt;div&gt;Knowledge Graph&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="FGPq9WlT3WejhNuZjeZR-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="SmX3n_LuJIYCsWd7I5lI-25" target="FGPq9WlT3WejhNuZjeZR-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SmX3n_LuJIYCsWd7I5lI-25" value="&lt;div&gt;Knowledge Graph&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;+ &lt;br&gt;&lt;/div&gt;&lt;div&gt;Social Graph&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="945" y="1125" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SmX3n_LuJIYCsWd7I5lI-26" value="Neo4j" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
@@ -283,9 +286,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="FGPq9WlT3WejhNuZjeZR-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FGPq9WlT3WejhNuZjeZR-8" target="FGPq9WlT3WejhNuZjeZR-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="FGPq9WlT3WejhNuZjeZR-8" value="Stakeholder Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="925" width="120" height="60" as="geometry" />
         </mxCell>
@@ -298,8 +298,8 @@
         <mxCell id="FGPq9WlT3WejhNuZjeZR-15" value="Export Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="985" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FGPq9WlT3WejhNuZjeZR-18" value="Can we use personas to build a social graph and represent that as the stakeholder map?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="940" width="260" height="30" as="geometry" />
+        <mxCell id="FGPq9WlT3WejhNuZjeZR-20" value="&lt;div&gt;KG for canvas content creation.&lt;/div&gt;&lt;div&gt;SG for stakeholders map generation&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1150" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
